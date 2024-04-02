@@ -1,5 +1,12 @@
 body{
-    background-color: darkslategray;
-     color: bisque;
-        font-family: serif;
+    background-color: aliceblue;
+}
+header{
+    background-color: darkcyan;
+}
+.logo{
+    background-color: yellow;
+}
+nav{
+    background-color: aqua;
 }
