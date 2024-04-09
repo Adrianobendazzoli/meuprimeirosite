@@ -10,3 +10,12 @@ header{
 nav{
     background-color: aqua;
 }
+main{
+    background-color: greenyellow;
+}
+section{
+    background-color: aliceblue;
+}
+footer{
+    background-color: blue;
+}
