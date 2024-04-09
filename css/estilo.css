@@ -3,6 +3,7 @@ body{
 }
 header{
     background-color: darkcyan;
+    padding: 3%;
 }
 .logo{
     background-color: yellow;
@@ -21,4 +22,5 @@ section{
 }
 footer{
     background-color: blue;
+    padding: 3%;
 }
