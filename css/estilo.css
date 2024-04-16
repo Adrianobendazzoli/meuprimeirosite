@@ -30,3 +30,11 @@ footer{
 .rodape{
     padding: 3%;
 }
+table{
+    border-collapse: collapse;
+    width: 80%;
+    font-size: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
