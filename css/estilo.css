@@ -2,26 +2,26 @@ body{
     background-image: url(../img/soccer-corinthians-wallpaper-thumb.jpg);    
 }
 header{
-    background-color: darkcyan;
+    background-color: #696969
     padding: 3%;
 }
 .logo{
     background-color: gray
 }
 nav{
-    background-color:white
+    background-color#696969
 }
 main{
-    background-color: greenyellow;
+    background-color:#696969
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 section{
-    background-color:brown
+    background-color:#696969
 }
 footer{
-    background-color: blue;
+    background-color: #696969
     padding: 3%;
 }
 .cabecalho{
