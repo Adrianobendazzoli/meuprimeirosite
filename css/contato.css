@@ -10,3 +10,16 @@ body{
     width: 200px;
     height: 200px;
 }
+h2{
+    font-family: "Roboto", sans-serif;
+}
+header{
+    background-color: rgb(251, 187,0);
+    height: 60px;
+    font-family: var(--tm-tertiary-font, 'OSB', 'OSB-fallback', sans-serif);
+    border-radius: 30px;
+    
+    
+   
+    
+}
