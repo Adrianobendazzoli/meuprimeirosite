@@ -1,19 +1,19 @@
 body{
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.pinterest.com%2Fpin%2F172544229461329130%2F&psig=AOvVaw09Bz2vIMDhK9HawpwHmBzp&ust=1714678683406000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMDshIGa7YUDFQAAAAAdAAAAABAE);    
+    background-color: aqua;  
 }
 header{
     background-color: #696969
-    padding: 3%;
+    padding = 3%;
 }
 .logo{
     background-color: gray
 }
 nav{
-    background-color#696969
+    background-color : red
 }
 main{
     background-color:#696969
-    width: 80%;
+    width = 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -22,7 +22,7 @@ section{
 }
 footer{
     background-color: #696969
-    padding: 3%;
+    padding =  3%;
 }
 .cabecalho{
     padding: 3%;
