@@ -14,3 +14,11 @@ body{
     margin-right: 15px;
     margin-top: 15px;
 }
+.text{
+    text-align: center;
+    color: black
+}
+.arena{
+    width: 500px;
+    height: 500px;
+}
