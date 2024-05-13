@@ -45,6 +45,9 @@ table{
     background-color: black;
     font-family: "Open Sans", sans-serif;
 }
+.info{
+    color: black;
+}
 th{
     background-color: gray
 }
