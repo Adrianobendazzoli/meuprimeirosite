@@ -14,16 +14,9 @@ body{
     margin-right: 15px;
     margin-top: 15px;
 }
-.linha {
+.linha{
     display: flex;
     flex-flow: row wrap;
     margin-left: auto;
     margin-right: auto;
-}
-.col-3 {
-    width: 25%;
-}
-.col-3 p {
-    font-size: 1rem;
-    text-align: center;
 }
