@@ -34,16 +34,17 @@ nav{
 
 
 table{
-    padding: 0; 
+    padding: 20px; 
     color: brown  ;
     padding-top: center;
     padding-bottom: center;
     text-align: center;
     margin-top: 10px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 30%;
+    
     background-color: black;
     font-family: "Open Sans", sans-serif;
+
 }
 .info{
     color: black;
@@ -118,4 +119,14 @@ footer{
 footer{
     color: brown;
     margin-top: 50px;
+}
+section{
+    color: gray;
+    font-size: 1.4em;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
