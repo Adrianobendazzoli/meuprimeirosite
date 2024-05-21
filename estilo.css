@@ -1,0 +1,32 @@
+header{
+    background-color: brown;
+    height: 100px;
+    font-family: var(--tm-tertiary-font, 'OSB', 'OSB-fallback', sans-serif);
+      
+}
+body{
+    background-color: black
+}
+.img_logo{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.logo{ 
+    color:black;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+  }
+  
+.logo{
+    
+    display: inline;
+  }
+.gavioes{
+    width: 450px;
+    height: 550px;
+    margin-left: 35%;
+}
