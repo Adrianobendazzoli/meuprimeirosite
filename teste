@@ -1,0 +1,209 @@
+.gavioes{
+    width: 450px;
+    height: 550px;
+    margin-left: 35%;
+}
+section{
+    color: brown;
+}
+h1{ 
+    color: black
+}
+h1{
+    color: gray;
+    font-size: 1.4em;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}  
+.text{
+    color: gray;
+    font-size: 1.4em;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+p{
+    color: gray;
+    font-size: 1.4em;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.timaosec{
+    width: 200px;
+    height: auto;
+    margin-left: 450px;
+    margin-right: 400px;    
+}
+div{
+    color: maroon;
+}
+li{
+    color: black;
+    display: inline;
+}
+
+.text1{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.text2{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.text3{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.text4{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.text5{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+footer{
+    color: brown;
+    margin-top: 50px;
+}
+CONTATO
+.contato{
+   
+    color: gray;
+    font-size: 1.4em;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+ }
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-3{
+    width: 25%;
+    margin-top: 20px;
+}
+.col-3 p{
+    font-size: 1rem;
+    text-align: center ;
+}
+
+.imggaleria{
+    width: 90%;
+    margin-left: 3%;
+    margin-right: 1%;
+}
+ELENCO
+table{
+    padding: 30px; 
+    color: brown  ;
+    padding-top: center;
+    padding-bottom: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 35%;
+    
+    background-color: black;
+    font-family: "Open Sans", sans-serif;
+
+}
+.info{
+    color: black;
+}
+th{
+    background-color: gray
+}
+.section2{
+    width: 200px;
+    height: 200px;
+}
+
+img{
+    width: 25px;
+    height: 17px;
+}
+section{
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 30px ;
+   
+    
+
+   
+}  
+li{
+    display: inline;
+
+}
+.logo{
+    background-color: transparent;
+    padding-top: center;
+    padding-bottom: center;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    
+}
+
+.menu{ 
+    color:black;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+  }
+  
+  .menu{
+    
+    display: inline;
+  }
+
+footer{
+    background-color: transparent;
+    border: 20px;
+}
+
+
+.text{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+footer{
+    color: brown;
+    margin-top: 50px;
+}
+section{
+    color: gray;
+    font-size: 1.4em;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
