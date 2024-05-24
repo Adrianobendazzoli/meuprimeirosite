@@ -86,8 +86,74 @@ table{
     text-align: center;
     margin-top: 10px;
     margin-left: 35%;
-    
     background-color: black;
     font-family: "Open Sans", sans-serif;
-
 }
+.info{
+    color: black;
+}
+
+td{
+    padding: 2%;
+    font-size:1.4em;
+}
+th{
+    font-size:1.4em;
+    background-color: gray
+}
+.info{
+    color: black;
+    font-size:1.4em;
+}
+.escalacaotimao{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-right: 15%; 
+}
+.jogadorestimao{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-right: 15%;  
+}
+
+.trofeus{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-right: 15%; 
+   }
+   .linha{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-3{
+    width: 25%;
+    margin-top: 20px;
+}
+.col-3 p{
+    font-size: 1rem;
+    text-align: center ;
+}
+
+.imggaleria{
+    width: 90%;
+    margin-left: 3%;
+    margin-right: 1%;
+}
+
+.contato{
+   
+    color: gray;
+    font-size: 1.4em;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+ }
+ 
