@@ -80,7 +80,8 @@ p{
 
 table{
     padding: 30px; 
-    color: brown  ;
+    color: brown ;
+    font-size: 20px;
     padding-top: center;
     padding-bottom: center;
     text-align: center;
@@ -146,7 +147,6 @@ th{
 }
 
 .contato{
-   
     color: gray;
     font-size: 1.4em;
     font-family: "Roboto", sans-serif;
@@ -156,4 +156,30 @@ th{
     margin-left: 150px;
     margin-right: 150px;
  }
- 
+ @media only screen and (max-width: 600px) {
+    body {
+      background-color: white;
+      color: black;
+    }
+  }
+  a:link{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited{
+    color:black;
+    background-color:transparent;
+    text-decoration: none;
+  }
+  a:hover{
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:active{
+    color: brown;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
