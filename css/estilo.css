@@ -201,18 +201,51 @@ th{
     margin-right: 15%;   
 }
 .rodape{
-    margin-left: 24%;
+    margin-left: 27%;
     width: auto;
 }
-.cards{
+.cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    color: gray;
 }
 
 .card {
-    width: calc(50% - 20px);
+    width: calc(33.33% - 20px);
     margin-bottom: 20px;
     padding: 20px;
     box-sizing: border-box;
+    color: gray;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px); /* 2 cards por linha em telas médias */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        width: calc(100% - 20px); /* 1 card por linha em telas pequenas (celulares) */
+    }
+}
+
+h3{
+    text-align: center;
+    line-height: 3;    
+    font-weight: bold;
+}
+.linha, .row  {
+    display: flex;
+    flex-flow: row wrap;
+}
+.titulos{
+    color: brown;
+}
+h2{
+    color: brown;
+}
+ul{
+    margin-top: 2%;
 }
