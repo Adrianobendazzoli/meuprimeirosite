@@ -2,7 +2,7 @@ header{
     background-color: brown;
     height: 100px;
     font-family: var(--tm-tertiary-font, 'OSB', 'OSB-fallback', sans-serif);
-      
+    position: relative; 
 }
 body{
     background-color: black
@@ -204,8 +204,10 @@ th{
     margin-right: 15%;   
 }
 .rodape{
-    margin-left: 27%;
-    width: auto;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-right: 15%;  
 }
 .cards {
     display: flex;
@@ -214,6 +216,17 @@ th{
     color: gray;
 }
 
+@media screen and (max-width: 768px) {
+    .card {
+        width: calc(50% ); 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        width: calc(100% ); 
+    }
+}
 .card {
     width: calc(33.33% - 20px);
     margin-bottom: 20px;
@@ -222,17 +235,6 @@ th{
     color: gray;
 }
 
-@media screen and (max-width: 768px) {
-    .card {
-        width: calc(50% - 20px); /* 2 cards por linha em telas médias */
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .card {
-        width: calc(100% - 20px); /* 1 card por linha em telas pequenas (celulares) */
-    }
-}
 
 h3{
     text-align: center;
