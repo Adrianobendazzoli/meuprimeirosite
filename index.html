@@ -16,13 +16,16 @@
 
         <div class="logo">
 
-        <nav>
-            <li><a href = "index.html">Inicio</a></li>
-            <li><a href = "elenco.html">Elenco</a></li>
-            <li><a href = "titulos.html">Titulos</a></li>
-            <li><a href = "estadio.html">Estadio</a></li>
-            <li><a href = "contato.html">Contato</a></li> 
-        </nav>
+            <nav id="menu">
+                <ul>
+                 <li><a href = "index.html">Inicio</a></li>
+                 
+                 <li><a href="#grandeza" onclick="document.getElementById('menu-toggle').click()">Grandeza</a></li>
+                 <li><a href="#mascote" onclick="document.getElementById('menu-toggle').click()">Mascote</a></li>
+                 <li><a href="#torcida" onclick="document.getElementById('menu-toggle').click()">Torcida</a></li>
+                 <li><a href="#hino" onclick="document.getElementById('menu-toggle').click()">Hino</a></li>
+                </ul> 
+            </nav>
 
        </div> 
       </header>
@@ -30,7 +33,7 @@
     <main>
     <fundo>
         <img class = "banner" src="img/Nova pasta/banner.webp">
-       <section>
+        <section id="corinthians">
         
         <h1>CORINTHIANS !!</h1>
          
@@ -50,7 +53,7 @@
          </div>
          </section>
         
-         <section>
+         <section id="grandeza">
             <p>.</p>
             <h1>Por que o Corinthians é grande?</h1>
             <div class = "textindex">
@@ -64,7 +67,7 @@
             </div>
          </section>
 
-         <section>
+         <section id="mascote">
             <p>.</p>
             <h1>MASCOTE</h1>
             <div class = "textindex">
@@ -81,7 +84,7 @@
         </div>
          </section>
 
-         <section>
+         <section id="torcida">
             <p>.</p>
            
             <h1>TORCIDA</h1>
@@ -100,7 +103,7 @@
         </div>
          </section>
 
-          <section>
+         <section id="hino">
             <p>.</p>
             <h1>HINO</h1>
             <div class = "textindex">

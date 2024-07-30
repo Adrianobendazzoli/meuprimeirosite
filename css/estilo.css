@@ -2,13 +2,35 @@ header{
     background-color: brown;
     height: 100px;
     font-family: var(--tm-tertiary-font, 'OSB', 'OSB-fallback', sans-serif);
-    position: relative; 
+    position: fixed;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box; 
 }
 body{
     background-color: black
 }
+html {
+    scroll-behavior: smooth;
+}
 div{
     position: sticky;
+}
+section::before {
+    content: '';
+    display: block;
+    height: 60px; 
+    margin-top: -80px; 
+    visibility: hidden;
 }
 .img_logo{
     width: 80px;
