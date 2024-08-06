@@ -22,6 +22,9 @@ body{
 html {
     scroll-behavior: smooth;
 }
+main{
+    margin-top: 10%;
+}
 div{
     position: sticky;
 }
@@ -66,7 +69,7 @@ section::before {
     font-family: "Roboto", sans-serif;
     text-align: center;
     background-color: transparent;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 150px;
     margin-right: 150px;
 }  
@@ -275,4 +278,16 @@ h2{
 }
 ul{
     margin-top: 2%;
+}
+.forms{
+    margin-left: 40%;
+    color: brown;
+}
+form{
+    margin-left: 40%;
+    color: gray;
+    margin-top: 1%;
+}
+footer{
+    margin-top: 5%;
 }
