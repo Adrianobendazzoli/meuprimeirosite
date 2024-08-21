@@ -32,7 +32,7 @@ section::before {
     content: '';
     display: block;
     height: 60px; 
-    margin-top: -80px; 
+    margin-top: -100px; 
     visibility: hidden;
 }
 .img_logo{
@@ -47,6 +47,10 @@ section::before {
     flex-flow: row wrap;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5%;
+}
+.titleestadio{
+    margin-top: 2%;
 }
 .logo{ 
     color:black;
@@ -139,6 +143,7 @@ th{
     height: 50%;
     margin-left: 25%;
     margin-right: 15%; 
+    margin-top: 5%;
 }
 .jogadorestimao{
     width: 50%;
@@ -287,7 +292,13 @@ form{
     margin-left: 40%;
     color: gray;
     margin-top: 1%;
+    font-size: 130%;
+}
+.contact{
+    text-align: center;
+    margin-left: 30%;
 }
 footer{
     margin-top: 5%;
 }
+
