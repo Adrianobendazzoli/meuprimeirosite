@@ -39,7 +39,16 @@ h1{
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 2%;
-}  
+} 
+h3{
+    color: brown;
+    font-size: 1.6em;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    background-color: transparent;
+    margin-left: 150px;
+    margin-right: 150px;
+} 
 p{
     color: gray;
     font-size: 1.4em;
@@ -66,12 +75,15 @@ section::before {
     visibility: hidden;
 }
 section{
-    padding: 20px; /* Padding suficiente para que o texto não fique muito próximo das bordas */
     margin-top: 20px;
 }
 
 
 /*inicio*/
+.Inicio{
+    margin-top: 10%;
+    padding-top: 0%;
+}
 .img_logo{
     width: 80px;
     height: 80px;
@@ -98,32 +110,42 @@ nav ul li {
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 10%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
 }
 .img1index{
     width: 30%;
     height: 30%;
     margin-left: 35%;
     margin-right: 15%; 
+    margin-top: 2%;
 }
 .mundial{
     width: 50%;
     height: 50%;
     margin-left: 25%;
     margin-right: 15%;   
+    margin-top: 2%;
 }
 .mosqueteiro{
     width: 50%;
     height: 50%;
     margin-left: 25%;
     margin-right: 15%; 
+    margin-top: 2%;
 }
 .torcida{
     width: 50%;
     height: 50%;
     margin-left: 25%;
     margin-right: 15%;   
+    margin-top: 2%;
 }
 /*elenco*/
+.elenco{
+    margin-top: 0
+
+}
 .tituloelenco{
     margin-top: 0%;
 }
@@ -176,7 +198,7 @@ th{
 }
 .titleestadio{
     margin-top: 0%;
-    margin-bottom: 10%;
+    margin-bottom: 2%;
 }
 .col-3{
     width: 25%;
@@ -212,12 +234,14 @@ th{
 
 
 /*titulo*/
+
 .trofeus{
     width: 50%;
     height: 50%;
     margin-left: 15%;
     margin-right: 15%; 
-   }
+    margin-top: 2%;
+}
    .titulos{
     color: brown;
     text-align: center;
@@ -252,7 +276,7 @@ form{
     font-size: 130%;
 }
 .h1contact{
-    margin-top: 0%;
+    margin-top: 7%;
 }
 .rodapecontato{
     margin-top: 2%;
