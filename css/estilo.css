@@ -360,3 +360,65 @@ form{
     margin-left: 25%;
     margin-right: 15%;  
 }
+
+
+/*menu sanduiche*/
+
+.navbar {
+    background-color: #8B0000;
+    padding: 10px;
+    position: relative;
+}
+
+/* Estilo do botão do menu */
+.menu-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    display: none; /* Inicialmente escondido para telas maiores */
+}
+
+/* Estilo da lista de navegação */
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilo para telas menores */
+@media (max-width: 768px) {
+    .menu-btn {
+        display: block; /* Exibe o botão do menu em telas menores */
+    }
+
+    .menu {
+        display: none; /* Esconde o menu */
+        flex-direction: column;
+        background-color: #8B0000;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        right: 0;
+    }
+
+    .menu.open {
+        display: flex; /* Mostra o menu ao clicar no botão */
+    }
+
+    .menu li {
+        margin: 10px 0;
+        text-align: center;
+    }
+}

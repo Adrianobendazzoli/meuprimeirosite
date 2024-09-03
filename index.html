@@ -11,8 +11,11 @@
 <body>
     <header>
         <img class="img_logo" src = "https://th.bing.com/th/id/R.ec8168086c11be7b24c06488eb0c4097?rik=r1DMIG4CWB5Sww&pid=ImgRaw&r=0" > 
-        <nav>
-            <ul>
+        <nav class="navbar">
+            <button class="menu-btn" id="menu-btn">
+                &#9776; <!-- Ícone do menu (três linhas) -->
+            </button>
+            <ul class="menu" id="menu">
                 <li><a href="contato.html">Contato</a></li>
                 <li><a href="#Inicio" onclick="document.getElementById('menu-toggle').click()">Inicio</a></li>
                 <li><a href="#Elenco" onclick="document.getElementById('menu-toggle').click()">Elenco</a></li>
@@ -20,7 +23,16 @@
                 <li><a href="#Titulos" onclick="document.getElementById('menu-toggle').click()">Titulos</a></li>
             </ul>
         </nav>
-    </header>
+    
+        <script>
+            // JavaScript para alternar o menu
+            document.getElementById("menu-btn").addEventListener("click", function() {
+                var menu = document.getElementById("menu");
+                menu.classList.toggle("open");
+            });
+        </script>
+    
+</header>
     <main>
         
         <img class = "banner" src="img/Nova pasta/banner.webp">
